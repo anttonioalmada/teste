@@ -1,5 +1,5 @@
 console.log("Olá Mundo!");
-// <! -- Begin
+// <! -- Script Login e Senha
 function Login(){
 var done=0;
 var username=document.login.username.value;
@@ -11,4 +11,4 @@ if (username=="246" && password=="246") { window.location.href="https://www.goog
 if (username=="135" && password=="135") { window.location.href="https://www.google.com"; done=1; }
 if (done==0) { alert("Login Invalido!"); }
 }
-// End -->
+// Fim -->
