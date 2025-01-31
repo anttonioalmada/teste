@@ -1,4 +1,3 @@
-<SCRIPT LANGUAGE="JavaScript">
 <!-- Begin
 function Login(){
 var done=0;
@@ -12,4 +11,3 @@ if (username=="usuario3" && password=="password3") { window.location="page3.html
 if (done==0) { alert("Login Invalido!"); }
 }
 // End -->
-</SCRIPT>
