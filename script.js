@@ -1,3 +1,4 @@
+console.log("Hello world!");
 <!-- Begin
 function Login(){
 var done=0;
