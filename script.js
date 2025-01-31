@@ -1,5 +1,5 @@
 console.log("Olá Mundo!");
-<!-- Begin
+// <! -- Begin
 function Login(){
 var done=0;
 var username=document.login.username.value;
