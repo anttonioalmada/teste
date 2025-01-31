@@ -3,8 +3,47 @@
 </head>
 
 <body>
-<h1>hello!</h1>
-<p>Oi</p>
-<i>Teste</i>
+<div id="secao1">
+<h1>hello world!</h1></div>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+function Login(){
+var done=0;
+var username=document.login.username.value;
+username=username.toLowerCase();
+var password=document.login.password.value;
+password=password.toLowerCase();
+if (username=="123" && password=="123") { window.location="google.com"; done=1; }
+if (username=="usuario2" && password=="password2") { window.location="page2.html"; done=1; }
+if (username=="usuario3" && password=="password3") { window.location="page3.html"; done=1; }
+if (done==0) { alert("Login Invalido!"); }
+}
+// End -->
+</SCRIPT>
+<center>
+<form name="login">
+<table border="0" cellpadding="3" width="225">
+	<tbody>
+		<tr>
+			<td colspan="2">
+			<center><font face="verdana" size="2"><b>&Aacute;REA PARA MEMBROS</b></font></center>
+			</td>
+		</tr>
+		<tr>
+			<td>Usu&aacute;rio:</td>
+			<td><input name="username" type="text" /></td>
+		</tr>
+		<tr>
+			<td>Senha:</td>
+			<td><input name="password" type="password" /></td>
+		</tr>
+		<tr>
+			<td align="center" colspan="2"><input onclick="Login()" type="button" value="Entrar" /></td>
+		</tr>
+	</tbody>
+</table>
+</form>
+</center>
 
 </body>
